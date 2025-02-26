@@ -1,0 +1,70 @@
+{
+    "control":      {
+            "table-def":    {
+                    "columns":      {
+                            "EMPLOYEE_ID":  {
+                                    "type": "INT32",
+                                    "nullable":     false
+                            },
+                            "FIRST_NAME":   {
+                                    "type": "STRING",
+                                    "length":       20,
+                                    "nullable":     true
+                            },
+                            "LAST_NAME":    {
+                                    "type": "STRING",
+                                    "length":       25,
+                                    "nullable":     true
+                            },
+                            "EMAIL":        {
+                                    "type": "STRING",
+                                    "length":       25,
+                                    "nullable":     true
+                            },
+                            "PHONE_NUMBER": {
+                                    "type": "STRING",
+                                    "length":       20,
+                                    "nullable":     true
+                            },
+                            "HIRE_DATE":    {
+                                    "type": "TIMESTAMP",
+                                    "nullable":     true
+                            },
+                            "JOB_ID":       {
+                                    "type": "STRING",
+                                    "length":       10,
+                                    "nullable":     true
+                            },
+                            "SALARY":       {
+                                    "type": "DECIMAL",
+                                    "nullable":     true,
+                                    "precision":    8,
+                                    "scale":        2
+                            },
+                            "COMMISSION_PCT":       {
+                                    "type": "DECIMAL",
+                                    "nullable":     true,
+                                    "precision":    2,
+                                    "scale":        2
+                            },
+                            "MANAGER_ID":   {
+                                    "type": "INT32",
+                                    "nullable":     true
+                            },
+                            "DEPARTMENT_ID":        {
+                                    "type": "INT16",
+                                    "nullable":     true
+                            }
+                    },
+                    "primary-key":  ["EMPLOYEE_ID"]
+            }
+    },
+    "metadata":     {
+            "timestamp":    "2024-06-20T21:11:31.725475Z",
+            "record-type":  "control",
+            "operation":    "create-table",
+            "partition-key-type":   "task-id",
+            "schema-name":  "HR",
+            "table-name":   "EMPLOYEES"
+    }
+}

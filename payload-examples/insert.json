@@ -1,0 +1,24 @@
+{
+    "data": {
+            "EMPLOYEE_ID":  109,
+            "FIRST_NAME":   "Daniel",
+            "LAST_NAME":    "Faviet",
+            "EMAIL":        "DFAVIET",
+            "PHONE_NUMBER": "515.124.4169",
+            "HIRE_DATE":    "2002-08-16T00:00:00Z",
+            "JOB_ID":       "FI_ACCOUNT",
+            "SALARY":       9000,
+            "COMMISSION_PCT":       null,
+            "MANAGER_ID":   108,
+            "DEPARTMENT_ID":        100
+    },
+    "metadata":     {
+            "timestamp":    "2024-06-20T21:18:38.075186Z",
+            "record-type":  "data",
+            "operation":    "insert",
+            "partition-key-type":   "schema-table",
+            "schema-name":  "HR",
+            "table-name":   "EMPLOYEES",
+            "transaction-id":       131082
+    }
+}

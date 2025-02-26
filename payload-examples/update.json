@@ -1,0 +1,16 @@
+{
+    "data": {
+            "FIRST_NAME":   "Murilo",
+            "EMAIL":        "murilo.costag1@gmail.com",
+            "EMPLOYEE_ID":  101
+    },
+    "metadata":     {
+            "timestamp":    "2024-06-20T22:19:19.963217Z",
+            "record-type":  "data",
+            "operation":    "update",
+            "partition-key-type":   "schema-table",
+            "schema-name":  "HR",
+            "table-name":   "EMPLOYEES",
+            "transaction-id":       65541
+    }
+}
